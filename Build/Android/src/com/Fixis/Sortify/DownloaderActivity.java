@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.YourCompany.TrashSorting2020;
+package com.Fixis.Sortify;
 
 import com.android.vending.expansion.zipfile.ZipResourceFile;
 import com.android.vending.expansion.zipfile.ZipResourceFile.ZipEntryRO;

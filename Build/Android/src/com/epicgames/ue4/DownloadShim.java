@@ -1,10 +1,10 @@
 package com.epicgames.ue4;
 
-import com.YourCompany.TrashSorting2020.OBBDownloaderService;
-import com.YourCompany.TrashSorting2020.DownloaderActivity;
+import com.Fixis.Sortify.OBBDownloaderService;
+import com.Fixis.Sortify.DownloaderActivity;
 import android.app.Activity;
 import com.google.android.vending.expansion.downloader.Helpers;
-import com.YourCompany.TrashSorting2020.OBBData;
+import com.Fixis.Sortify.OBBData;
 
 
 public class DownloadShim
