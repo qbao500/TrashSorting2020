@@ -24,7 +24,7 @@ import com.google.android.vending.expansion.downloader.impl.DownloaderService;
  */
 public class OBBDownloaderService extends DownloaderService {
     // stuff for LVL -- MODIFY FOR YOUR APPLICATION!
-    private static final String BASE64_PUBLIC_KEY = "";
+    private static final String BASE64_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq/c79I5Hgx4tVbS4lVZMWbOY3Xskp8g0MlHGiYXqDmBgnX2idghCOKxFM8kOV3bONcdgxBfA0ggnszvEdx7aFAsQYf0IB2xeh0TbgcEXXlchPQSQSr7eNqcyYwn+Ky6j7uqLXUYXPIhSzQRvPiNt3GKhK4cdldNgG/GETClkFgSfDcC21201WaU47k2YAhnWLp8HgRwNGGc0pbJBKH+xXvfPO6/wiXGlTGMuKXEFT4yywGY5Eb63d87nly89ZO/L5uVNmybqsZdWoThvlOkg8pIZgPxxpm/BbYO7NlHomVvz9c6vSO2h87WHDOHsIcBX2vCagifMRptFs8u4ycHqUQIDAQAB";
     // used by the preference obfuscater
     private static final byte[] SALT = new byte[] {
             1, 43, -12, -1, 54, 98,
