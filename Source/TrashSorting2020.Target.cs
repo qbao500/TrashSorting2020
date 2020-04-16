@@ -10,5 +10,12 @@ public class TrashSorting2020Target : TargetRules
 		Type = TargetType.Game;
 
 		ExtraModuleNames.AddRange( new string[] { "TrashSorting2020" } );
+
+		if (Target.Platform == UnrealTargetPlatform.Android)
+		{
+			ExtraModuleNames.Add("OnlineSubsystemGooglePlay");
+			ExtraModuleNames.Add("OnlineSubsystem");
+			ExtraModuleNames.Add("AndroidAdvertising");
+		}
 	}
 }
