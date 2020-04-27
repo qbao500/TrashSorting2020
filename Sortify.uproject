@@ -72,10 +72,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "AndroidMedia",
-			"Enabled": false
-		},
-		{
 			"Name": "AudioCapture",
 			"Enabled": false
 		},
@@ -108,11 +104,15 @@
 			"Enabled": false
 		},
 		{
-			"Name": "WmfMedia",
-			"Enabled": false
+			"Name": "ApexDestruction",
+			"Enabled": true
 		},
 		{
-			"Name": "ApexDestruction",
+			"Name": "MfMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "MediaFrameworkUtilities",
 			"Enabled": true
 		}
 	],
